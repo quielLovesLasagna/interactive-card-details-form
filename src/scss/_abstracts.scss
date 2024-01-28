@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+// COLOR
+$cl-blue: hsl(249, 99%, 64%);
+$cl-dark-purple: hsl(278, 94%, 30%);
+$cl-red: hsl(0, 100%, 66%);
+$cl-white: hsl(0, 0%, 100%);
+$cl-light-grayish-violet: hsl(270, 3%, 87%);
+$cl-dark-grayish-violet: hsl(279, 6%, 55%);
+$cl-very-dark-violet: hsl(278, 68%, 11%);
+
+// FONT-FAMILY
+$ff-space-grotesk: "Space Grotesk", sans-serif;
+
+// FONT-WEIGHT
+$fw-small: 500;
+
+// MIXIN
+@mixin transitionAll {
+	transition: all 0.2s;
+}
+
+@mixin center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// FUNCTION
+@function toRem($size) {
+	$remSize: calc($size / 16px);
+	@return #{$remSize}rem;
+}
