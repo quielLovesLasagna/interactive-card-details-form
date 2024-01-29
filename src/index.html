@@ -48,6 +48,7 @@
 							name="card-name"
 							id="name"
 						/>
+						<div class="error-container"></div>
 					</div>
 					<div class="form__input-container">
 						<label for="number">Card Number</label>
@@ -57,6 +58,7 @@
 							id="number"
 							placeholder="e.g. 1234 5678 9123 0000"
 						/>
+						<div class="error-container"></div>
 					</div>
 					<div class="form__container--wrapper">
 						<div class="form__input-container">
@@ -75,10 +77,12 @@
 									id="exp-year"
 								/>
 							</div>
+							<div class="error-container"></div>
 						</div>
 						<div class="form__input-container">
 							<label for="cvc">Cvc</label>
 							<input type="text" name="cvc" id="cvc" placeholder="e.g. 123" />
+							<div class="error-container"></div>
 						</div>
 					</div>
 					<button type="submit" id="form__button">Confirm</button>

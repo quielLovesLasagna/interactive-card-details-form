@@ -261,6 +261,29 @@ svg {
 	}
 }
 
+// SHOW COMPLETE STATE
 .show.form .complete {
 	display: block;
+}
+
+// ERROR STATES
+.error-conainer {
+	display: none;
+}
+
+.error.form__input-container {
+	.error-container {
+		margin-top: abs.toRem(5px);
+		display: block;
+	}
+
+	.error-span {
+		font-size: abs.toRem(12px);
+		color: abs.$cl-red;
+		font-weight: abs.$fw-small;
+	}
+
+	input {
+		border-color: abs.$cl-red;
+	}
 }
