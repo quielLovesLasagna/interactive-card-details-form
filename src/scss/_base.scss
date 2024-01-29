@@ -275,12 +275,12 @@ svg {
 	.error-container {
 		margin-top: abs.toRem(5px);
 		display: block;
-	}
 
-	.error-span {
-		font-size: abs.toRem(12px);
-		color: abs.$cl-red;
-		font-weight: abs.$fw-small;
+		.error-span {
+			font-size: abs.toRem(12px);
+			color: abs.$cl-red;
+			font-weight: abs.$fw-small;
+		}
 	}
 
 	input {
