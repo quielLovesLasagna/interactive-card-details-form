@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/quielLovesLasagna/interactive-card-details-form](https://github.com/quielLovesLasagna/interactive-card-details-form)
+- Live Site URL: [https://quiel-interactive-card-details-form.netlify.app/](https://quiel-interactive-card-details-form.netlify.app/)
 
 ## My process
 
